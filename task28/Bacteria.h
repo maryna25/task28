@@ -35,7 +35,6 @@ public:
 
 protected:
 	static vector<string> names;
-	static int seed;
 
 	static int add(const string& s)
 	{
@@ -51,7 +50,6 @@ protected:
 	int first_name, last_name;
 };
 
-int Bacteria::seed = 0;
 vector<string> Bacteria::names{};
 
 class BacteriaFactory
